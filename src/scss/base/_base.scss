@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+  .dashboard {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100vh;
+    position: relative;
+  }
+  .shapes__1 {
+    position: absolute;
+    background-color: rgb(72, 83, 243);
+    height: 10rem;
+    width: 10rem;
+    left: 15rem;
+    top: 2rem;
+    transform: rotate(30deg);
+  }
+  .shapes__2 {
+    position: absolute;
+    background-color: rgb(72, 83, 243);
+    height: 10rem;
+    width: 10rem;
+    left: 35rem;
+    top: 15rem;
+    transform: rotate(30deg);
+  }
+  .shapes__3 {
+    position: absolute;
+    background-color: rgb(72, 83, 243);
+    height: 10rem;
+    width: 10rem;
+    left: 60rem;
+    top: 20rem;
+    border-radius: 100%;
+  }
+}
